@@ -5,6 +5,7 @@ const router = express.Router();
 
 // instancia
 var app = express();
+app.set('port', process.env.PORT || 3000);
 
 //Configuracion para servir archivos estaticos o publicos
 app.use(express.static('public'))
@@ -16,4 +17,6 @@ app.get('/', (req,res) => {
 });
 
 // arranque
-app.listen(3000);
+app.listen(app.get('port'), () => {
+  console.log('listening on *:3000');
+});
