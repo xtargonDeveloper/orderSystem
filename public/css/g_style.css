@@ -1,0 +1,63 @@
+.links_g{
+    color:rgb(126, 123, 123) !important;
+}
+
+.hero-area .counter {
+    background: rgba(24, 26, 29, 0.774) !important;
+    padding: 18px;
+    color:white;
+}
+
+.buttonArrow{
+    border: none;
+    background: rgba(58, 29, 29, 0.884);
+    color: white;
+    margin-top: 10px;
+    width: 45%;
+    transition: 0.5s;
+}
+
+.buttonArrow:hover{
+    width: 50%;
+    background: rgba(107, 72, 72, 0.884);
+
+    border-bottom: 1px solid white;
+}
+
+.showCartBtn{
+    background-color: rgba(75, 43, 43, 0.856);
+    border: none;
+    width: 155px;
+    transition: 0.5s;
+}
+
+.showCartBtn:hover{
+    background-color: rgba(112, 87, 87, 0.856);
+    width: 180px;
+}
+
+.imgsCart{
+    width: 150px;
+    height: 150px;
+    margin: 20px;
+    display: inline-flex;
+}
+
+.nameProduct{
+    color:rgba(66, 112, 97, 0.938);
+    font-size: 18px;
+    transition: 0.5s;
+}
+
+.nameProduct:hover{
+    font-size: 20px;
+}
+
+.priceProduct{
+    color:rgba(35, 75, 61, 0.938);
+    margin-top: 10px;
+}
+
+.detailsProduct{
+    display: inline-block;
+}
